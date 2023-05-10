@@ -46,4 +46,41 @@ nav .icons button svg {
 }
 nav .icons .cart {
   margin-right: 70px;
+}
+
+.main__info {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__info h1 {
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 62px;
+  color: #7C6A0A;
+}
+.main__info p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: #7C6A0A;
+  margin: 30px 0;
+}
+.main__info button {
+  width: 15vw;
+  height: 73px;
+  background: #FA9500;
+  border: none;
+  border-radius: 35px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 30px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.main__info img {
+  width: 25vw;
+  border-radius: 19px;
 }/*# sourceMappingURL=main.css.map */

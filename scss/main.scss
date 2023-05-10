@@ -5,6 +5,7 @@ $secondary-color: #FFDAC6;
 $tertiary-color: #BABD8D;
 $primary-text-color: #7C6A0A;
 $primary-font-family: 'IBM Plex Sans', sans-serif;
+$p-size: 1.5rem;
 
 * {
   box-sizing: border-box;
@@ -54,3 +55,41 @@ nav {
     }
   }
 }
+.main__info {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 50px;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 62px;
+    color: $primary-text-color;
+  }
+  p {
+    font-weight: 400;
+    font-size: $p-size;
+    line-height: 32px;
+    color: $primary-text-color;
+    margin: 30px 0;
+  }
+  button {
+    width: 15vw;
+    height: 73px;
+    background: #FA9500;
+    border: none;
+    border-radius: 35px;
+    font-weight: 700;
+    font-size: $p-size;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  img {
+    width: 25vw;
+    border-radius: 19px;
+  }
+
+}
+
